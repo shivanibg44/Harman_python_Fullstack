@@ -1,0 +1,5 @@
+x = input("Enter a string: ")
+str_length = len(x)
+newfile = open("data.txt", "w")
+filedata = newfile.write(str(str_length))
+print(filedata)
